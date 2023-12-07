@@ -1,0 +1,316 @@
+.title {
+    text-align: center;
+    padding: 1.5%; 
+    font-size: 260%;
+    margin:auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #FFEFAD;
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    @media screen and (max-width: 600px) {
+        div.example {
+          font-size: 60%;
+        }
+      }
+}
+
+html {
+    background-color: #ebceac;
+    max-width: 100%;
+}
+
+h3 {
+    text-align: center;
+    margin-top: -2.5%;
+    font-style: oblique;
+    max-width: 100%;
+    @media screen and (max-width: 600px) {
+        div.example {
+          font-size: 30px;
+        }
+      }
+      overflow: hidden;
+}
+
+.img1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px; 
+    width: 3.5%;
+    height: auto;
+    max-width: 100%;
+}
+
+.img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px; 
+    width: 3.5%; 
+    height: auto;
+    max-width: 100%; 
+}
+
+.navbar {
+    background-color: #532A2A; 
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    float: left; 
+}
+
+.navbar ul li a {
+    display: block;
+    color: #EBCEAC; 
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar ul li a:hover {
+    background-color: #FFEFAD; 
+}
+
+.imgm img {
+    border-radius: 20%;
+    padding: 5px;
+    width: 600px;
+    max-width: 100%;
+}
+  
+
+.contactinfo {text-align: center;
+    font-size:250%;
+    background-color: #FFEFAD;
+    padding: 2%; 
+    margin:auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.imgcontact {
+    width:400px;
+    height:500px;
+    max-width: 100%;
+}
+
+/*Polaroid styling*/
+
+.polaroid {
+    width: 500px;
+    height: 800px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 2%;
+    float: left;
+}
+
+.caption{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   margin-top: 5%;
+    
+}
+
+.polaroid:hover {
+    box-shadow: 4px 8px 16px 6px lightpink;
+}
+
+.imgcheff {
+    width: 500px;
+    height: 650px;
+    max-width: 100%;
+    border-radius: 3%;
+}
+
+@media screen and (max-width: 650px) {
+    .polaroid {
+        width: 96%;
+        margin: 2% auto;
+    }
+}
+
+.imgchocolate {
+  margin-left: 60%;
+  width: 30%;
+  background-color: #532A2A;
+  margin-top: 3%;
+  border-radius: 8%;
+  padding: 0.5%;
+  max-width: 100%;
+  overflow: auto;
+}
+
+
+.titlechoco {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -21%;
+    font-size: 300%;
+    margin-left: 15%;
+    margin-bottom: -0.5%;
+    overflow: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+    margin-left: 1%;
+    border-radius: 2%;
+    overflow: hidden;
+}
+
+
+
+th, td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+    background-color: #532A2A;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    overflow: hidden;
+} 
+
+td {
+    color: #EBCEAC;
+}
+
+.ingredienttitle {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -50%;
+    
+}
+
+.directionstitle {
+    margin-left: -85%;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 130%;
+
+}
+
+.directionslist {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ingredientlist {
+    font-size: 80%;
+}
+
+.collapsible {
+    background-color: #ebd084;
+    color: brown;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold ;
+}
+  
+  .active, .collapsible:hover {
+    background-color: #ccc;
+}
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #c77f7f; 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ }
+
+ h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=message] {
+    width: 80%;
+    padding: 40px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 80%;
+    background-color: #c2ac96;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: medium;
+}
+
+.titlewelcome {
+    text-align: center;
+ font-family: cursive;
+ font-size: 160%;
+
+}
+
+.homepagetitle {
+    text-align: center;
+    font-family: cursive;
+    font-size: 120%;
+
+}
+
+.imgrecipehome {
+    width: 20%;
+    border-radius: 47%;
+    padding: 2%;
+
+}
+
+.moreinfotitle {
+   font-style: italic;
+    text-align: center;
+   
+}
+
+footer {
+    flex-grow: 1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #532A2A;
+}
+
+.footertext {
+    font-family: 'Courier New', Courier, monospace;
+}
